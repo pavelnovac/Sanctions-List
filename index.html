@@ -4,34 +4,72 @@
   <meta charset="utf-8">
   <meta name="viewport" content="width=device-width, initial-scale=1">
   <title>Lista de sancțiuni — Republica Moldova</title>
-  <meta name="description" content="Căutare și verificare în listele de persoane, entități și nave pentru care Republica Moldova aplică măsuri restrictive.">
+  <meta name="description" content="Verificați gratuit dacă o persoană, o companie sau un document figurează în lista măsurilor restrictive aplicate de Republica Moldova. Căutare după nume, IDNP sau document, verificare în lot și API pentru instituții.">
+  <meta property="og:title" content="Lista de sancțiuni a Republicii Moldova">
+  <meta property="og:description" content="Căutare, verificare în lot, topuri și API static pentru deciziile Consiliului interinstituțional de supervizare.">
+  <meta property="og:type" content="website">
+  <meta name="theme-color" content="#1e3d34">
   <link rel="preconnect" href="https://fonts.googleapis.com">
   <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
   <link href="https://fonts.googleapis.com/css2?family=Literata:opsz,wght@7..72,560;7..72,680&family=Source+Sans+3:ital,wght@0,400;0,600;0,700;1,400&display=swap" rel="stylesheet">
   <link rel="stylesheet" href="assets/styles.css">
+  <link rel="alternate" type="application/json" href="api/v1/index.json" title="API">
   <link rel="icon" href="data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 32 32'%3E%3Crect fill='%231e3d34' width='32' height='32' rx='4'/%3E%3Cpath fill='%23f3efe6' d='M8 8h16v2H8zm0 5h11v2H8zm0 5h16v2H8zm0 5h8v2H8z'/%3E%3C/svg%3E">
 </head>
 <body>
   <a class="skip" href="#continut">Sari la conținut</a>
   <header class="mast">
     <div class="mast-inner">
-      <p class="eyebrow">Consiliul interinstituțional de supervizare</p>
       <div class="mast-row">
-        <h1><a href="#/">Lista de sancțiuni</a></h1>
-        <nav class="mast-nav">
-          <a href="#/" data-nav="cauta">Căutare</a>
+        <a class="brand" href="#/">
+          <span class="eyebrow">Republica Moldova · măsuri restrictive internaționale</span>
+          <span class="brand-name">Lista de sancțiuni</span>
+        </a>
+        <nav class="mast-nav" aria-label="Principal">
+          <a href="#/" data-nav="acasa">Acasă</a>
+          <a href="#/cauta" data-nav="cauta">Căutare</a>
+          <a href="#/topuri" data-nav="topuri">Topuri</a>
+          <a href="#/lot" data-nav="lot">Verificare în lot</a>
           <a href="#/decizii" data-nav="decizii">Decizii</a>
+          <a href="#/api" data-nav="api">API</a>
+          <a href="#/ghid" data-nav="ghid">Ghid</a>
         </nav>
       </div>
-      <p class="lede">Persoane, entități și nave pentru care Republica Moldova a pus în aplicare măsuri restrictive. Căutare după nume, cod personal (IDNP) sau număr de document.</p>
     </div>
   </header>
   <div class="notice" role="note">
-    <p>Instrument de consultare a copiilor păstrate în acest proiect. Nu înlocuiește lista oficială publicată pe <a href="https://date.gov.md/open/sanctioned-subjects">date.gov.md</a> și textul din Monitorul Oficial. Unele anexe din fișiere nu redau numele.</p>
+    <p>Instrument independent de consultare a deciziilor Consiliului interinstituțional de supervizare. Lista oficială este cea de pe <a href="https://date.gov.md/open/sanctioned-subjects" target="_blank" rel="noopener">date.gov.md</a> și din Monitorul Oficial. <a href="#/ghid#limite">Limitele datelor</a></p>
   </div>
   <main id="continut"></main>
   <footer class="colophon">
-    <p>Date extrase din deciziile CIS aflate în acest depozit. Actualizarea se face prin adăugarea PDF-urilor și rerularea scriptului de extragere.</p>
+    <div class="colophon-inner">
+      <div>
+        <p class="brand-name small">Lista de sancțiuni</p>
+        <p>Date extrase din deciziile CIS publicate. Fiecare rezultat trimite la pagina exactă din actul oficial.</p>
+        <p class="muted" data-version></p>
+      </div>
+      <div>
+        <h4>Instrumente</h4>
+        <a href="#/cauta">Căutare și verificare</a>
+        <a href="#/lot">Verificare în lot</a>
+        <a href="#/topuri">Topuri și noutăți</a>
+        <a href="#/decizii">Catalogul deciziilor</a>
+      </div>
+      <div>
+        <h4>Pentru instituții</h4>
+        <a href="#/api">Documentația API</a>
+        <a href="api/v1/subjects.csv">Lista completă (CSV)</a>
+        <a href="dataset/subjects.json">Lista completă (JSON)</a>
+        <a href="api/v1/index.json">Manifest API</a>
+      </div>
+      <div>
+        <h4>Surse oficiale</h4>
+        <a href="https://date.gov.md/open/sanctioned-subjects" target="_blank" rel="noopener">date.gov.md</a>
+        <a href="https://www.monitorul.md" target="_blank" rel="noopener">Monitorul Oficial</a>
+        <a href="https://www.legis.md" target="_blank" rel="noopener">legis.md</a>
+        <a href="#/ghid">Ghid și întrebări frecvente</a>
+      </div>
+    </div>
   </footer>
   <script src="assets/app.js" type="module"></script>
 </body>

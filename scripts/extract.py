@@ -451,14 +451,26 @@ def tidy_name(name: str, notes: str) -> tuple[str, str]:
         "Conform informației",
         "Conform informatiei",
         "Conform informaţiei",
+        "Inclus pe listă",
+        "Inclusă pe listă",
     ):
         at = name.lower().find(marker.lower())
         if at > 2:
             notes = clean_ws(name[at:] + " " + notes)
             name = name[:at]
     name = re.sub(r"[\s\*]+$", "", name)
+    name = re.sub(r"(?:[\s,]+crt\.?|\s+\.)$", "", name)
     name = drop_footnote(name)
     return clean_ws(name), clean_ws(notes)
+
+
+# Anexele cu bunuri interzise (echipamente, arme, glosare de termeni) urmează
+# după lista de subiecți și au aceeași formă de tabel numerotat.
+NOT_A_SUBJECT = re.compile(
+    r"\beste abrevierea\b|^plasa de sarma|^arme de foc|^cutite militare|^alti explozivi|^simulatoare\b"
+    r"|^echipamente\b|^bombe\b|^vehicule\b|^substante explozive|\bnota generala\b"
+    r"|^in cauza \d+|dupa cum urmeaza|la care (?:nu )?se face referire"
+)
 
 
 def is_bad_name(name: str) -> bool:
@@ -477,6 +489,8 @@ def is_bad_name(name: str) -> bool:
     if any(folded.startswith(item) for item in bad):
         return True
     if "modificare efectuata in baza" in folded:
+        return True
+    if NOT_A_SUBJECT.search(folded):
         return True
     if folded in {"prim ministru", "prim-ministru", "exclusa", "exclus"} or folded.startswith("exclusa"):
         return True
@@ -511,7 +525,8 @@ def detach_labels(name: str, info: str) -> tuple[str, str]:
 
 
 def leading_number(text: str) -> tuple[str, str] | None:
-    m = re.match(r"^(\d{1,4})\.?\s+(.*)$", text.strip())
+    # „29.(*) Nume” marchează în anexă o intrare adăugată printr-o modificare.
+    m = re.match(r"^(\d{1,4})(?:\.?\s+|\.\s*\(\*\)\s*)(.*)$", text.strip())
     if not m:
         return None
     number = int(m.group(1))
@@ -711,7 +726,9 @@ def split_aliases(name: str) -> tuple[str, list[str]]:
                 cleaned_aliases.append(alias)
     aliases = cleaned_aliases + scripts
     # Drop alias markers left in the primary name.
-    primary = drop_footnote(primary)
+    primary = re.sub(r"\s*\(ortografi[ae]\s+[^)\s]+\)", "", primary, flags=re.I)
+    primary = re.sub(r"\s*\((?:ortografi\w*|rus[aă]|ucrainean[aă]|belarus[aă])\b[^)]*\)?\s*$", "", primary, flags=re.I)
+    primary = re.sub(r"\*+$", "", drop_footnote(primary)).strip()
     seen = set()
     unique = []
     for alias in aliases:
@@ -806,18 +823,25 @@ def parse_documents(text: str, idnp: str | None) -> list[dict]:
     return found
 
 
+MD_IDNP = re.compile(r"^(?:09|20)\d{11}$")
+
+
 def parse_idnp(text: str) -> str | None:
-    match = re.search(
-        r"(?:IDNP|identificare de stat|număr(?:ul)? de identificare(?:\s+de stat)?"
+    """IDNP-ul moldovenesc are 13 cifre și începe cu 09 sau 20. Numerele fiscale
+    și de înregistrare străine au tot 13 cifre, dar nu sunt IDNP."""
+    for match in re.finditer(
+        r"(IDNP|identificare de stat|număr(?:ul)? de identificare(?!\s+fiscal)(?:\s+de stat)?"
         r"|numar national de identificare)[^\d]{0,40}(\d{13})",
         text or "",
         re.I,
-    )
-    return match.group(1) if match else None
+    ):
+        if match.group(1).upper() == "IDNP" or MD_IDNP.match(match.group(2)):
+            return match.group(2)
+    return None
 
 
 def field_after(text: str, labels: str, stops: str) -> str:
-    m = re.search(labels + r"\s*[:\-]?\s*(.+?)(?:" + stops + r"|$)", text, re.I | re.S)
+    m = re.search(r"(?:" + labels + r")(?![a-zăâîșț])\s*[:\-]?\s*(.+?)(?:" + stops + r"|$)", text, re.I | re.S)
     if not m:
         return ""
     return clean_ws(m.group(1))[:400]
@@ -841,15 +865,26 @@ def refine_type(declared: str, name: str, info: str) -> str:
     """Antetul de secțiune se lipește uneori de rândurile următoare.
     Data nașterii și numărul IMO sunt semnale mai sigure decât secțiunea curentă."""
     blob = fold(f"{name} {info}")
-    birth = bool(re.search(r"data nasterii|sexul|nascut|cetateni", blob))
+    birth = bool(re.search(
+        r"data nasterii|sexul|\bgenul\b|nascut|cetateni|\bfunctia\b|\bfunctie\b"
+        r"|^(?:colonel|locotenent|maior|general|capitan)", fold(info) + " " + blob))
     imo = bool(re.search(r"\bimo\b", blob))
-    entity = bool(re.search(r"tip de entitate|numar de inregistrare", blob))
+    entity = bool(re.search(
+        r"tip(?:ul)? de entitate|numar(?:ul)? de inregistrare|locul inregistrarii|data inregistrarii"
+        r"|data crearii|\bsediu\b|\badresa\b|site web|\btelefon\b", blob))
+    corporate = bool(re.search(
+        r"\b(?:llc|jsc|ojsc|pjsc|cjsc|ltd|limited|inc|company|corporation|group|institute|industries|plant"
+        r"|association|society|force|partidul|serviciul|enterprise|bank|pmc|sc|fze|fzco|dmcc|gmbh|co)\b",
+        fold(name),
+    ))
     if imo and not birth:
         return "vessel"
     if birth:
         return "person"
-    if entity:
+    if entity or corporate:
         return "entity"
+    if declared == "vessel":
+        return "person"
     return declared or "person"
 
 
@@ -891,6 +926,11 @@ def build_subject(record: dict, decision: dict, seq: int) -> tuple[dict, dict]:
             if part and len(part) < 80:
                 citizenship.append(part)
     listing = parse_listing((record.get("dates") or "") + " " + (record.get("reason") or "")[:200])
+    if not listing["md"]:
+        # În anexele fără coloană de date, „RM – 25.09.2023” stă în textul de identificare.
+        fallback = parse_listing(info + " " + (record.get("reason") or ""))
+        listing["md"] = fallback["md"]
+        listing["foreign"] = listing["foreign"] or fallback["foreign"]
     reason = record.get("reason") or ""
     # If listing dates were pulled into the reason, keep them out of the opening.
     reason = re.sub(
@@ -900,12 +940,15 @@ def build_subject(record: dict, decision: dict, seq: int) -> tuple[dict, dict]:
     )
     reason = clean_ws(reason)
     moldova = bool(idnp) or any("moldova" in fold(c) for c in citizenship)
+    subject_type = refine_type(record.get("type") or "person", name, info)
+    if subject_type == "person":
+        name = re.sub(r"\s+\d{1,2}\*?$", "", name)
     subject_id = f"{decision['id']}-{seq}"
     subject = {
         "id": subject_id,
         "decisionId": decision["id"],
         "listNumber": record.get("listNumber") or str(seq),
-        "type": refine_type(record.get("type") or "person", name, info),
+        "type": subject_type,
         "name": name,
         "aliases": aliases,
         "birthDate": birth,
@@ -960,6 +1003,11 @@ def extract_narrative(text: str) -> tuple[list[dict], list[str]]:
         m = re.match(r"^(\d{1,4})\.\s+([\s\S]+)$", chunk)
         if not m:
             continue
+        # Un an sau un număr din textul motivelor („2021. În această calitate…”)
+        # nu este un rând nou al listei.
+        if records and int(m.group(1)) > int(records[-1]["listNumber"]) + 20:
+            records[-1]["info"] = clean_ws(records[-1]["info"] + " " + chunk)
+            continue
         body = clean_ws(m.group(2))
         notes = ""
         note_match = re.search(
@@ -1007,7 +1055,9 @@ def narrative_fields(body: str) -> tuple[str, str, str]:
             reason = body[at:].strip()
             break
     name_match = re.match(
-        r"^(.+?)(?:,?\s+n[aă]scut[ăa]?|,?\s+IDNP\b|Data na[sș]terii\b|Func[tț]i|Pozi[tț]ie\b|Nume \(alfabet)",
+        r"^(.+?)(?:,?\s+n[aă]scut[ăa]?|,?\s+IDNP\b|Data na[sș]terii\b|Func[tț]i|Pozi[tț]ie\b|Nume \(alfabet"
+        r"|\s+Cet[aă][tțţ]eni[ae]\s*:|\s+Gen(?:ul)?\s*:|\s+Sex(?:ul)?\s*:|\s+Adres[aă]\s*:|\s+Locul na[sș]terii"
+        r"|\s+Alte (?:entit|informa)|\s+Locul [îi]nregistr[aă]rii|\s+Tip(?:ul)? de entitate)",
         info,
         re.I | re.S,
     )
@@ -1159,7 +1209,7 @@ def process_file(path: Path) -> tuple[dict, list[dict], dict[str, dict], dict]:
             warnings.append("fara_subiecti")
         for seq, record in enumerate(records, start=1):
             subject, detail = build_subject(record, decision, seq)
-            if len(fold(subject["name"])) < 3:
+            if len(fold(subject["name"])) < 3 or is_bad_name(subject["name"]):
                 warnings.append(f"nume_respins_{seq}")
                 continue
             subjects.append(subject)
@@ -1246,7 +1296,9 @@ def main() -> int:
             print(" -", problem, file=sys.stderr)
         return 1
     print("Verificare Șor / Guțul: ok")
-    return 0
+    import build_api
+
+    return build_api.main()
 
 
 def validate(subjects: list[dict], details_dir: Path) -> list[str]:
