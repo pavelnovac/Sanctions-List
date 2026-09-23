@@ -1,0 +1,1062 @@
+{
+  "generatedAt": "2026-09-22T11:52:12Z",
+  "source": "Deciziile Consiliului interinstituțional de supervizare din mapa data/",
+  "decisions": [
+    {
+      "id": "1",
+      "number": 1,
+      "date": "2023-12-27",
+      "title": "aplicarea măsurilor\nrestrictive internaţionale (Monitorul Oficial al Republicii Moldova, 2016, nr. 140-149,\nart. 289), cu modificările ulterioare, în vederea asigurării securității Republicii Moldova şi\nstabilităţii sectorului financiar, precum şi în scopul excluderii riscurilor de spălare a banilor\nşi de finanţare a terorismului, având în vedere faptele de corupție, subminare a statului de\ndrept, abuz asupra drepturilor omului și alte crime săvârșite de către persoane fizice,\ninclusiv cetăţeni ai Republicii Moldova, Consiliul interinstitutional de supervizare",
+      "regime": "SUA",
+      "kind": "implementation",
+      "status": "in_force",
+      "measures": [
+        "asset_freeze"
+      ],
+      "file": "data/decizia_nr.1_cis.pdf",
+      "amendedBy": [],
+      "instruments": [],
+      "theme": "aplicarea masurilor restrictive internationale monitorul oficial al republicii moldova 2016 nr 140 149 art 289 cu modificarile ulterioare in vederea asigurarii securitatii republic",
+      "subjectCount": 0,
+      "notice": "Text obținut prin recunoaștere optică dintr-un document scanat."
+    },
+    {
+      "id": "2",
+      "number": 2,
+      "date": "2024-08-01",
+      "title": "punerea în aplicare a măsurilor restrictive internaționale ale Uniunii Europene\n împotriva Hamas și Jihadului Islamic Palestinian și a celor care sprijină, facilitează sau\n permit acțiunile violente comise de acestea",
+      "regime": "UE",
+      "kind": "implementation",
+      "status": "in_force",
+      "measures": [
+        "asset_freeze",
+        "travel_ban"
+      ],
+      "file": "data/Decizia CIS nr. 2 consolid_DCIS48.pdf",
+      "amendedBy": [
+        "48"
+      ],
+      "instruments": [
+        "Decizia (PESC) 2024/385"
+      ],
+      "theme": "impotriva hamas si jihadului islamic palestinian si a celor care sprijina faciliteaza sau permit actiunile violente comise de acestea",
+      "subjectCount": 27
+    },
+    {
+      "id": "3",
+      "number": 3,
+      "date": "2024-08-01",
+      "title": "punerea în aplicare a măsurilor specifice\n ale Uniunii Europene pentru combaterea terorismului\n\n Abrogată prin DCIS49 din 19.06.26, MO265-268/20.06.26 art.12; în vigoare 20.06.26",
+      "regime": "UE",
+      "kind": "implementation",
+      "status": "repealed",
+      "measures": [
+        "asset_freeze"
+      ],
+      "file": "data/Decizia CIS nr. 3 abrogată RO.pdf",
+      "amendedBy": [
+        "49"
+      ],
+      "instruments": [],
+      "theme": "punerea in aplicare a masurilor specifice ale uniunii europene pentru combaterea terorismului abrogata prin dcis49 din 19 06 26 mo265 268 20 06 26 art 12 in vigoare 20 06 26",
+      "subjectCount": 0
+    },
+    {
+      "id": "4",
+      "number": 4,
+      "date": "2024-08-01",
+      "title": "punerea în aplicare a măsurilor restrictive internaționale ale Uniunii\n Europene având în vedere situația din Nicaragua",
+      "regime": "UE",
+      "kind": "implementation",
+      "status": "in_force",
+      "measures": [
+        "asset_freeze",
+        "travel_ban"
+      ],
+      "file": "data/Decizia CIS nr. 4.pdf",
+      "amendedBy": [
+        "52"
+      ],
+      "instruments": [
+        "Decizia (PESC) 2019/1720"
+      ],
+      "theme": "avand in vedere situatia din nicaragua",
+      "subjectCount": 21
+    },
+    {
+      "id": "5",
+      "number": 5,
+      "date": "2024-08-01",
+      "title": "punerea în aplicare a măsurilor restrictive internaționale\n ale Uniunii Europene având în vedere situația din Guatemala",
+      "regime": "UE",
+      "kind": "implementation",
+      "status": "in_force",
+      "measures": [
+        "asset_freeze",
+        "travel_ban"
+      ],
+      "file": "data/Decizia CIS nr. 5.pdf",
+      "amendedBy": [
+        "52"
+      ],
+      "instruments": [
+        "Decizia (PESC) 2024/254"
+      ],
+      "theme": "avand in vedere situatia din guatemala",
+      "subjectCount": 9
+    },
+    {
+      "id": "6",
+      "number": 6,
+      "date": "2024-08-01",
+      "title": "punerea în aplicare a măsurilor restrictive internaționale\n ale Uniunii Europene având în vedere situația din Republica Burundi",
+      "regime": "UE",
+      "kind": "implementation",
+      "status": "in_force",
+      "measures": [
+        "asset_freeze",
+        "travel_ban"
+      ],
+      "file": "data/Decizia CIS nr. 6.pdf",
+      "amendedBy": [
+        "52"
+      ],
+      "instruments": [
+        "Decizia (PESC) 2015/1763"
+      ],
+      "theme": "avand in vedere situatia din republica burundi",
+      "subjectCount": 0,
+      "notice": "Fișierul nu conține o listă de subiecți care să poată fi extrasă."
+    },
+    {
+      "id": "7",
+      "number": 7,
+      "date": "2024-08-01",
+      "title": "punerea în aplicare a măsurilor restrictive internaționale ale Uniunii Europene\n având în vedere acțiunile de destabilizare a Republicii Moldova",
+      "regime": "UE",
+      "kind": "implementation",
+      "status": "in_force",
+      "measures": [
+        "asset_freeze",
+        "travel_ban"
+      ],
+      "file": "data/Decizia CIS nr. 7.pdf",
+      "amendedBy": [
+        "52"
+      ],
+      "instruments": [
+        "Decizia (PESC) 2023/891"
+      ],
+      "theme": "avand in vedere actiunile de destabilizare a republicii moldova",
+      "subjectCount": 33
+    },
+    {
+      "id": "8",
+      "number": 8,
+      "date": "2024-11-22",
+      "title": "la alinierea la măsurile restrictive internaţionale\nale Statelor Unite ale Americii instituite împotriva activităţilor\ndăunătoare în străinătate ale Guvernului Federaţiei Ruse",
+      "regime": "SUA",
+      "kind": "implementation",
+      "status": "in_force",
+      "measures": [],
+      "file": "data/decizia_cis_nr.8.pdf",
+      "amendedBy": [],
+      "instruments": [],
+      "theme": "la alinierea la masurile restrictive internationale ale statelor unite ale americii instituite impotriva activitatilor daunatoare in strainatate ale guvernului federatiei ruse",
+      "subjectCount": 0,
+      "notice": "Text obținut prin recunoaștere optică dintr-un document scanat."
+    },
+    {
+      "id": "9",
+      "number": 9,
+      "date": "2024-11-22",
+      "title": "punerea în aplicare a măsurilor restrictive internaționale\n\nale Statelor Unite ale Americii, instituite împotriva activităţilor dăunătoare\n\nîn străinătate ale Guvernului Federaţiei Ruse",
+      "regime": "SUA",
+      "kind": "implementation",
+      "status": "in_force",
+      "measures": [
+        "asset_freeze",
+        "travel_ban"
+      ],
+      "file": "data/decizia_cis_nr.9.pdf",
+      "amendedBy": [],
+      "instruments": [],
+      "theme": "instituite impotriva activitatilor daunatoare in strainatate ale guvernului federatiei ruse",
+      "subjectCount": 5,
+      "notice": "Text obținut prin recunoaștere optică dintr-un document scanat."
+    },
+    {
+      "id": "10",
+      "number": 10,
+      "date": "2024-11-22",
+      "title": "modificarea unor decizii de punere în aplicare a măsurilor\nrestrictive internaționale ale Uniunii Europene",
+      "regime": "UE",
+      "kind": "amendment",
+      "status": "in_force",
+      "measures": [],
+      "file": "data/decizia_cis_nr.10.pdf",
+      "amendedBy": [],
+      "instruments": [],
+      "theme": "modificarea unor decizii de punere in aplicare a masurilor restrictive internationale ale uniunii europene",
+      "subjectCount": 0,
+      "notice": "Text obținut prin recunoaștere optică dintr-un document scanat."
+    },
+    {
+      "id": "11",
+      "number": 11,
+      "date": "2024-11-22",
+      "title": "punerea în aplicare a măsurilor restrictive internaționale\n ale Uniunii Europene având în vedere activitățile care subminează\n stabilitatea și tranziția politică în Sudan",
+      "regime": "UE",
+      "kind": "implementation",
+      "status": "in_force",
+      "measures": [
+        "asset_freeze",
+        "travel_ban"
+      ],
+      "file": "data/Decizia CIS nr. 11.pdf",
+      "amendedBy": [
+        "52"
+      ],
+      "instruments": [
+        "Decizia (PESC) 2023/2135"
+      ],
+      "theme": "avand in vedere activitatile care submineaza stabilitatea si tranzitia politica in sudan",
+      "subjectCount": 19
+    },
+    {
+      "id": "12",
+      "number": 12,
+      "date": "2024-11-22",
+      "title": "punerea în aplicare a măsurilor restrictive internaționale\n ale Uniunii Europene împotriva proliferării și utilizării armelor chimice",
+      "regime": "UE",
+      "kind": "implementation",
+      "status": "in_force",
+      "measures": [
+        "asset_freeze",
+        "travel_ban"
+      ],
+      "file": "data/Decizia CIS nr. 12.pdf",
+      "amendedBy": [
+        "52"
+      ],
+      "instruments": [
+        "Decizia (PESC) 2018/1544"
+      ],
+      "theme": "impotriva proliferarii si utilizarii armelor chimice",
+      "subjectCount": 37
+    },
+    {
+      "id": "13",
+      "number": 13,
+      "date": "2024-11-22",
+      "title": "punerea în aplicare a măsurilor restrictive internaționale\n ale Uniunii Europene având în vedere situația din Niger",
+      "regime": "UE",
+      "kind": "implementation",
+      "status": "in_force",
+      "measures": [
+        "asset_freeze",
+        "travel_ban"
+      ],
+      "file": "data/Decizia CIS nr. 13_0.pdf",
+      "amendedBy": [
+        "52"
+      ],
+      "instruments": [
+        "Decizia (PESC) 2023/2287"
+      ],
+      "theme": "avand in vedere situatia din niger",
+      "subjectCount": 0,
+      "notice": "Anexa din fișier nu redă numele subiecților."
+    },
+    {
+      "id": "14",
+      "number": 14,
+      "date": "2024-11-22",
+      "title": "punerea în aplicare a măsurilor restrictive internaționale ale\n Uniunii Europene având în vedere situația din Guineea",
+      "regime": "UE",
+      "kind": "implementation",
+      "status": "in_force",
+      "measures": [
+        "asset_freeze",
+        "travel_ban"
+      ],
+      "file": "data/Decizia CIS nr. 14.pdf",
+      "amendedBy": [
+        "52"
+      ],
+      "instruments": [
+        "Decizia\n2010/638/PESC"
+      ],
+      "theme": "avand in vedere situatia din guineea",
+      "subjectCount": 5
+    },
+    {
+      "id": "15",
+      "number": 15,
+      "date": "2024-11-22",
+      "title": "punerea în aplicare a măsurilor restrictive internaționale\n ale Uniunii Europene având în vedere situația din Liban",
+      "regime": "UE",
+      "kind": "implementation",
+      "status": "in_force",
+      "measures": [
+        "asset_freeze",
+        "travel_ban"
+      ],
+      "file": "data/Decizia CIS nr. 15_1.pdf",
+      "amendedBy": [
+        "52"
+      ],
+      "instruments": [
+        "Decizia (PESC) 2021/1277"
+      ],
+      "theme": "avand in vedere situatia din liban",
+      "subjectCount": 0,
+      "notice": "Anexa din fișier nu redă numele subiecților."
+    },
+    {
+      "id": "16",
+      "number": 16,
+      "date": "2024-11-22",
+      "title": "punerea în aplicare a măsurilor restrictive internaționale ale Uniunii Europene\nîmpotriva atacurilor cibernetice care reprezintă o amenințare la adresa Uniunii Europene\n sau a statelor sale membre",
+      "regime": "UE",
+      "kind": "implementation",
+      "status": "in_force",
+      "measures": [
+        "asset_freeze",
+        "travel_ban"
+      ],
+      "file": "data/Decizia CIS nr. 16.pdf",
+      "amendedBy": [
+        "52"
+      ],
+      "instruments": [
+        "Decizia (PESC) 2019/797"
+      ],
+      "theme": "impotriva atacurilor cibernetice care reprezinta o amenintare la adresa uniunii europene sau a statelor sale membre",
+      "subjectCount": 38
+    },
+    {
+      "id": "17",
+      "number": 17,
+      "date": "2024-11-22",
+      "title": "punerea în aplicare a măsurilor restrictive internaționale\n ale Uniunii Europene împotriva încălcărilor grave ale drepturilor\n omului și a abuzurilor grave împotriva drepturilor omului",
+      "regime": "UE",
+      "kind": "implementation",
+      "status": "in_force",
+      "measures": [
+        "asset_freeze",
+        "travel_ban"
+      ],
+      "file": "data/Decizia CIS nr. 17.pdf",
+      "amendedBy": [
+        "52"
+      ],
+      "instruments": [
+        "Decizia (PESC)\n2020/1999"
+      ],
+      "theme": "impotriva incalcarilor grave ale drepturilor omului si a abuzurilor grave impotriva drepturilor omului",
+      "subjectCount": 106
+    },
+    {
+      "id": "18",
+      "number": 18,
+      "date": "2025-03-05",
+      "title": "modificarea unor decizii de punere în aplicare a măsurilor\n restrictive internaționale ale Uniunii Europene",
+      "regime": "UE",
+      "kind": "amendment",
+      "status": "in_force",
+      "measures": [],
+      "file": "data/deciza_cis_nr.18_din_05.03.2025.pdf",
+      "amendedBy": [],
+      "instruments": [],
+      "theme": "modificarea unor decizii de punere in aplicare a masurilor restrictive internationale ale uniunii europene",
+      "subjectCount": 0
+    },
+    {
+      "id": "19",
+      "number": 19,
+      "date": "2025-03-05",
+      "title": "punerea în aplicare a măsurilor restrictive internaționale\n ale Uniunii Europene în raport cu acțiunile care subminează sau amenință integritatea\n teritorială, suveranitatea și independența Ucrainei",
+      "regime": "UE",
+      "kind": "implementation",
+      "status": "in_force",
+      "measures": [
+        "asset_freeze"
+      ],
+      "file": "data/Decizia CIS nr. 19.pdf",
+      "amendedBy": [
+        "52"
+      ],
+      "instruments": [
+        "Decizia\n2014/145/PESC",
+        "Decizia 2014/145/PESC",
+        "Decizia 2014/512/PESC"
+      ],
+      "theme": "in raport cu actiunile care submineaza sau ameninta integritatea teritoriala suveranitatea si independenta ucrainei",
+      "subjectCount": 3206
+    },
+    {
+      "id": "20",
+      "number": 20,
+      "date": "2025-03-05",
+      "title": "punerea în aplicare a măsurilor restrictive internaționale\n ale Uniunii Europene având în vedere situația din Mali",
+      "regime": "UE",
+      "kind": "implementation",
+      "status": "in_force",
+      "measures": [
+        "asset_freeze",
+        "travel_ban"
+      ],
+      "file": "data/Decizia CIS nr. 20.pdf",
+      "amendedBy": [
+        "52"
+      ],
+      "instruments": [
+        "Decizia (PESC) 2017/1775"
+      ],
+      "theme": "avand in vedere situatia din mali",
+      "subjectCount": 8
+    },
+    {
+      "id": "21",
+      "number": 21,
+      "date": "2025-03-05",
+      "title": "punerea în aplicare a măsurilor restrictive internaționale\n ale Uniunii Europene îndreptate împotriva anumitor persoane și entități\n având în vedere situația din Tunisia",
+      "regime": "UE",
+      "kind": "implementation",
+      "status": "in_force",
+      "measures": [
+        "asset_freeze"
+      ],
+      "file": "data/Decizia CIS nr. 21.pdf",
+      "amendedBy": [
+        "52"
+      ],
+      "instruments": [
+        "Decizia 2011/72/PESC"
+      ],
+      "theme": "indreptate impotriva anumitor persoane si entitati avand in vedere situatia din tunisia",
+      "subjectCount": 62
+    },
+    {
+      "id": "22",
+      "number": 22,
+      "date": "2025-03-05",
+      "title": "punerea în aplicare a măsurilor restrictive internaționale\n ale Uniunii Europene având în vedere activitățile destabilizatoare ale Rusiei",
+      "regime": "UE",
+      "kind": "implementation",
+      "status": "in_force",
+      "measures": [
+        "asset_freeze"
+      ],
+      "file": "data/Decizia CIS nr. 22.pdf",
+      "amendedBy": [
+        "52"
+      ],
+      "instruments": [
+        "Decizia (PESC) 2024/2643"
+      ],
+      "theme": "avand in vedere activitatile destabilizatoare ale rusiei",
+      "subjectCount": 51
+    },
+    {
+      "id": "23",
+      "number": 23,
+      "date": "2025-05-26",
+      "title": "alinierea Ia măsurile restrictive internaţionale ale Regatului Unit al Marii Britanii\n $ al Irlandei de Nord instituite împotriva actelor de corupţie şi finanţelor ilegale",
+      "regime": "UK",
+      "kind": "alignment",
+      "status": "in_force",
+      "measures": [],
+      "file": "data/Decizia CIS 23 din 26.05.2025.pdf",
+      "amendedBy": [],
+      "instruments": [
+        "S.I. 2021/488"
+      ],
+      "theme": "alinierea ia masurile restrictive internationale ale regatului unit al marii britanii al irlandei de nord instituite impotriva actelor de coruptie si finantelor ilegale",
+      "subjectCount": 0
+    },
+    {
+      "id": "24",
+      "number": 24,
+      "date": "2025-05-26",
+      "title": "punerea în aplicare a măsurilor restrictive internaționale\n ale Regatului Unit al Marii Britanii și Irlandei de Nord instituite împotriva\n actelor de corupție și finanțelor ilegale",
+      "regime": "UK",
+      "kind": "implementation",
+      "status": "in_force",
+      "measures": [
+        "asset_freeze"
+      ],
+      "file": "data/Decizia CIS 24 din 26.05.2025.pdf",
+      "amendedBy": [],
+      "instruments": [
+        "S.I. 2021/488"
+      ],
+      "theme": "instituite impotriva actelor de coruptie si finantelor ilegale",
+      "subjectCount": 4
+    },
+    {
+      "id": "25",
+      "number": 25,
+      "date": "2025-05-26",
+      "title": "modificarea unor decizii de punere în aplicare a măsurilor\n restrictive internaționale ale Uniunii Europene",
+      "regime": "UE",
+      "kind": "amendment",
+      "status": "in_force",
+      "measures": [],
+      "file": "data/Decizia CIS 25 din 26.05.2025.pdf",
+      "amendedBy": [],
+      "instruments": [],
+      "theme": "modificarea unor decizii de punere in aplicare a masurilor restrictive internationale ale uniunii europene",
+      "subjectCount": 0
+    },
+    {
+      "id": "26",
+      "number": 26,
+      "date": "2025-05-26",
+      "title": "punerea în aplicare a măsurilor restrictive internaționale\n ale Uniunii Europene împotriva anumitor persoane, entități\n și organisme având în vedere situația din Ucraina",
+      "regime": "UE",
+      "kind": "implementation",
+      "status": "in_force",
+      "measures": [
+        "asset_freeze"
+      ],
+      "file": "data/Decizia CIS nr. 26.pdf",
+      "amendedBy": [
+        "52"
+      ],
+      "instruments": [
+        "Decizia\n 2014/119/PESC"
+      ],
+      "theme": "impotriva anumitor persoane entitati si organisme avand in vedere situatia din ucraina",
+      "subjectCount": 6
+    },
+    {
+      "id": "28",
+      "number": 28,
+      "date": "2025-07-25",
+      "title": "modificarea Deciziei Consiliului interinstituțional de supervizare\n nr. 22 din 5 martie 2025 privind punerea în aplicare a măsurilor restrictive\n internaționale ale Uniunii Europene având în vedere activitățile\n destabilizatoare ale Rusiei",
+      "regime": "UE",
+      "kind": "amendment",
+      "status": "in_force",
+      "measures": [
+        "asset_freeze"
+      ],
+      "file": "data/Decizia Consiliului interinstituțional de supervizare nr. 28 din 25.07.2025.pdf",
+      "amendedBy": [],
+      "instruments": [],
+      "theme": "nr 22 din 5 martie 2025 privind punerea in aplicare a masurilor restrictive internationale ale uniunii europene avand in vedere activitatile destabilizatoare ale rusiei",
+      "subjectCount": 0
+    },
+    {
+      "id": "29",
+      "number": 29,
+      "date": "2025-07-25",
+      "title": "modificarea unor decizii de punere în aplicare\n a măsurilor restrictive internaționale ale Uniunii Europene",
+      "regime": "UE",
+      "kind": "amendment",
+      "status": "in_force",
+      "measures": [],
+      "file": "data/Decizia CIS nr. 29 din 25.07.2025.pdf",
+      "amendedBy": [],
+      "instruments": [],
+      "theme": "modificarea unor decizii de punere in aplicare a masurilor restrictive internationale ale uniunii europene",
+      "subjectCount": 0
+    },
+    {
+      "id": "30",
+      "number": 30,
+      "date": "2025-08-29",
+      "title": "modificarea unor decizii de punere în aplicare\n a măsurilor restrictive internaționale ale Uniunii Europene",
+      "regime": "UE",
+      "kind": "amendment",
+      "status": "in_force",
+      "measures": [],
+      "file": "data/Decizia CIS nr. 30 din 29.08.2025.pdf",
+      "amendedBy": [],
+      "instruments": [
+        "Decizia (PESC) 2025/1435"
+      ],
+      "theme": "modificarea unor decizii de punere in aplicare a masurilor restrictive internationale ale uniunii europene",
+      "subjectCount": 0
+    },
+    {
+      "id": "31",
+      "number": 31,
+      "date": "2025-09-05",
+      "title": "alinierea Ia uncle măsuri restrictive internaţionale ale Canadei\n instituite împotriva activităţilor maligne de interferenţă ale Rusiei hi Republica Moldova\n înaintea următoarelor alegeri parlamentare",
+      "regime": "Canada",
+      "kind": "alignment",
+      "status": "in_force",
+      "measures": [],
+      "file": "data/Decizia CIS nr. 31 din 05.09.2025.pdf",
+      "amendedBy": [],
+      "instruments": [
+        "SOR/2025-163"
+      ],
+      "theme": "alinierea ia uncle masuri restrictive internationale ale canadei instituite impotriva activitatilor maligne de interferenta ale rusiei hi republica moldova inaintea urmatoarelor al",
+      "subjectCount": 0
+    },
+    {
+      "id": "32",
+      "number": 32,
+      "date": "2025-09-05",
+      "title": "punerea în aplicare a măsurilor restrictive internaționale ale Canadei instituite\n împotriva activităților maligne de interferență ale Rusiei în Republica Moldova\n înaintea următoarelor alegeri parlamentare",
+      "regime": "Canada",
+      "kind": "implementation",
+      "status": "in_force",
+      "measures": [
+        "asset_freeze"
+      ],
+      "file": "data/Decizia CIS nr. 32 din 05.09.2025.pdf",
+      "amendedBy": [],
+      "instruments": [],
+      "theme": "instituite impotriva activitatilor maligne de interferenta ale rusiei in republica moldova inaintea urmatoarelor alegeri parlamentare",
+      "subjectCount": 18
+    },
+    {
+      "id": "33",
+      "number": 33,
+      "date": "2025-12-10",
+      "title": "modificarea unor decizii de punere în aplicare\n a măsurilor restrictive internaționale ale Uniunii Europene",
+      "regime": "UE",
+      "kind": "amendment",
+      "status": "in_force",
+      "measures": [],
+      "file": "data/Decizia CIS nr. 33 din 10.12.2025_0.pdf",
+      "amendedBy": [],
+      "instruments": [],
+      "theme": "modificarea unor decizii de punere in aplicare a masurilor restrictive internationale ale uniunii europene",
+      "subjectCount": 0
+    },
+    {
+      "id": "34",
+      "number": 34,
+      "date": "2025-12-10",
+      "title": "punerea în aplicare a măsurilor restrictive internaționale ale Uniunii Europene\n având în vedere situația din Republica Guineea-Bissau",
+      "regime": "UE",
+      "kind": "implementation",
+      "status": "in_force",
+      "measures": [
+        "asset_freeze",
+        "travel_ban"
+      ],
+      "file": "data/Decizia CIS nr. 34.pdf",
+      "amendedBy": [
+        "52"
+      ],
+      "instruments": [
+        "Decizia 2012/285/PESC"
+      ],
+      "theme": "avand in vedere situatia din republica guineea bissau",
+      "subjectCount": 10
+    },
+    {
+      "id": "35",
+      "number": 35,
+      "date": "2025-12-10",
+      "title": "alinierea Ia uncle măsuri restrictive internaţionale ale Regatului Unit\n al Marii Britanii și al Irlandei de Nord instituite împotriva infrastructurii ruse\n de criminalitate cibernetică",
+      "regime": "UK",
+      "kind": "alignment",
+      "status": "in_force",
+      "measures": [],
+      "file": "data/Decizia CIS nr. 35 din 10.12.2025.pdf",
+      "amendedBy": [],
+      "instruments": [
+        "S.I. 2019/855"
+      ],
+      "theme": "alinierea ia uncle masuri restrictive internationale ale regatului unit al marii britanii si al irlandei de nord instituite impotriva infrastructurii ruse de criminalitate cibernet",
+      "subjectCount": 0
+    },
+    {
+      "id": "36",
+      "number": 36,
+      "date": "2025-12-10",
+      "title": "punerea în aplicare a măsurilor restrictive internaționale\n ale Regatului Unit al Marii Britanii și al Irlandei de Nord instituite\n împotriva infrastructurii ruse de criminalitate cibernetică",
+      "regime": "UK",
+      "kind": "implementation",
+      "status": "in_force",
+      "measures": [
+        "asset_freeze",
+        "travel_ban"
+      ],
+      "file": "data/Decizia CIS nr. 36 din 10.12.2025.pdf",
+      "amendedBy": [],
+      "instruments": [],
+      "theme": "instituite impotriva infrastructurii ruse de criminalitate cibernetica",
+      "subjectCount": 7
+    },
+    {
+      "id": "37",
+      "number": 37,
+      "date": "2025-12-10",
+      "title": "alinierea Ia unele măsuri restrictive internaţionale ale Statelor Unite ale\n Americii instituite împotriva companiilor petroliere ruse",
+      "regime": "SUA",
+      "kind": "alignment",
+      "status": "in_force",
+      "measures": [],
+      "file": "data/Decizia CIS nr. 37 din 10.12.2025.pdf",
+      "amendedBy": [],
+      "instruments": [],
+      "theme": "alinierea ia unele masuri restrictive internationale ale statelor unite ale americii instituite impotriva companiilor petroliere ruse",
+      "subjectCount": 0
+    },
+    {
+      "id": "38",
+      "number": 38,
+      "date": "2026-01-06",
+      "title": "punerea în aplicare a măsurilor restrictive internaționale ale Statelor Unite\n ale Americii instituite împotriva companiilor petroliere ruse",
+      "regime": "SUA",
+      "kind": "implementation",
+      "status": "in_force",
+      "measures": [
+        "asset_freeze"
+      ],
+      "file": "data/Decizia CIS nr. 38 din 06.01.2026.pdf",
+      "amendedBy": [],
+      "instruments": [],
+      "theme": "instituite impotriva companiilor petroliere ruse",
+      "subjectCount": 36
+    },
+    {
+      "id": "39",
+      "number": 39,
+      "date": "2026-01-06",
+      "title": "modificarea unor decizii de punere în aplicare\n a măsurilor restrictive internaționale ale Uniunii Europene",
+      "regime": "UE",
+      "kind": "amendment",
+      "status": "in_force",
+      "measures": [],
+      "file": "data/Decizia CIS nr. 39 din 06.01.2026.pdf",
+      "amendedBy": [],
+      "instruments": [],
+      "theme": "modificarea unor decizii de punere in aplicare a masurilor restrictive internationale ale uniunii europene",
+      "subjectCount": 0
+    },
+    {
+      "id": "40",
+      "number": 40,
+      "date": "2026-01-06",
+      "title": "punerea în aplicare a măsurilor restrictive internaționale ale Uniunii Europene\n având în vedere activitățile de foraj neautorizate ale Turciei în estul Mediteranei",
+      "regime": "UE",
+      "kind": "implementation",
+      "status": "in_force",
+      "measures": [
+        "asset_freeze",
+        "travel_ban"
+      ],
+      "file": "data/Decizia CIS nr. 40.pdf",
+      "amendedBy": [
+        "52"
+      ],
+      "instruments": [],
+      "theme": "avand in vedere activitatile de foraj neautorizate ale turciei in estul mediteranei",
+      "subjectCount": 0,
+      "notice": "Anexa din fișier nu redă numele subiecților."
+    },
+    {
+      "id": "41",
+      "number": 41,
+      "date": "2026-01-06",
+      "title": "punerea în aplicare a măsurilor restrictive internaționale\n ale Uniunii Europene privind măsurile restrictive\n având în vedere situația din Sudanul de Sud",
+      "regime": "UE",
+      "kind": "implementation",
+      "status": "in_force",
+      "measures": [
+        "asset_freeze",
+        "travel_ban"
+      ],
+      "file": "data/Decizia CIS nr. 41.pdf",
+      "amendedBy": [
+        "52"
+      ],
+      "instruments": [],
+      "theme": "privind masurile restrictive avand in vedere situatia din sudanul de sud",
+      "subjectCount": 9
+    },
+    {
+      "id": "42",
+      "number": 42,
+      "date": "2026-01-06",
+      "title": "măsuri restrictive având în vedere situația din Haiti",
+      "regime": "UE",
+      "kind": "implementation",
+      "status": "in_force",
+      "measures": [
+        "asset_freeze"
+      ],
+      "file": "data/Decizia CIS nr. 42.pdf",
+      "amendedBy": [
+        "52"
+      ],
+      "instruments": [
+        "Decizia (PESC) 2022/2319"
+      ],
+      "theme": "masuri restrictive avand in vedere situatia din haiti",
+      "subjectCount": 16
+    },
+    {
+      "id": "43",
+      "number": 43,
+      "date": "2026-01-06",
+      "title": "punerea în aplicare a măsurilor restrictive internaționale\n ale Uniunii Europene privind măsurile restrictive având în vedere situația\n din Republica Democrată Congo",
+      "regime": "UE",
+      "kind": "implementation",
+      "status": "in_force",
+      "measures": [
+        "asset_freeze",
+        "travel_ban"
+      ],
+      "file": "data/Decizia CIS nr. 43.pdf",
+      "amendedBy": [
+        "52"
+      ],
+      "instruments": [],
+      "theme": "privind masurile restrictive avand in vedere situatia din republica democrata congo",
+      "subjectCount": 33
+    },
+    {
+      "id": "44",
+      "number": 44,
+      "date": "2026-03-20",
+      "title": "modificarea unor decizii de punere în aplicare\n a măsurilor restrictive internaționale ale Uniunii Europene",
+      "regime": "UE",
+      "kind": "amendment",
+      "status": "in_force",
+      "measures": [],
+      "file": "data/Decizia CIS nr. 44 din 20.03.2026.pdf",
+      "amendedBy": [],
+      "instruments": [],
+      "theme": "modificarea unor decizii de punere in aplicare a masurilor restrictive internationale ale uniunii europene",
+      "subjectCount": 0
+    },
+    {
+      "id": "45",
+      "number": 45,
+      "date": "2026-03-20",
+      "title": "punerea în aplicare a măsurilor restrictive internaționale\n ale Uniunii Europene împotriva ISIL (Da'esh) și Al-Qaida\n și a persoanelor, grupurilor, întreprinderilor și entităților asociate cu acestea",
+      "regime": "ONU",
+      "kind": "implementation",
+      "status": "in_force",
+      "measures": [
+        "asset_freeze",
+        "travel_ban"
+      ],
+      "file": "data/Decizia CIS nr. 45.pdf",
+      "amendedBy": [
+        "52"
+      ],
+      "instruments": [],
+      "theme": "impotriva isil da esh si al qaida si a persoanelor grupurilor intreprinderilor si entitatilor asociate cu acestea",
+      "subjectCount": 15
+    },
+    {
+      "id": "46",
+      "number": 46,
+      "date": "2026-03-20",
+      "title": "punerea în aplicare a măsurilor restrictive internaționale\n ale Uniunii Europene privind embargoul asupra armelor având în vedere\n situația din Zimbabwe",
+      "regime": "UE",
+      "kind": "implementation",
+      "status": "in_force",
+      "measures": [],
+      "file": "data/Decizia CIS nr. 46.pdf",
+      "amendedBy": [
+        "52"
+      ],
+      "instruments": [],
+      "theme": "privind embargoul asupra armelor avand in vedere situatia din zimbabwe",
+      "subjectCount": 0,
+      "notice": "Fișierul nu conține o listă de subiecți care să poată fi extrasă."
+    },
+    {
+      "id": "47",
+      "number": 47,
+      "date": "2026-04-24",
+      "title": "modificarea unor decizii de punere în aplicare\n a măsurilor restrictive internaționale ale Uniunii Europene",
+      "regime": "UE",
+      "kind": "amendment",
+      "status": "in_force",
+      "measures": [],
+      "file": "data/Decizia CIS nr. 47 din 24.04.2026.pdf",
+      "amendedBy": [],
+      "instruments": [],
+      "theme": "modificarea unor decizii de punere in aplicare a masurilor restrictive internationale ale uniunii europene",
+      "subjectCount": 0
+    },
+    {
+      "id": "48",
+      "number": 48,
+      "date": "2026-06-19",
+      "title": "modificarea unor decizii de punere în aplicare\n a măsurilor restrictive internaționale ale Uniunii Europene",
+      "regime": "UE",
+      "kind": "amendment",
+      "status": "in_force",
+      "measures": [
+        "asset_freeze"
+      ],
+      "file": "data/Decizia CIS nr. 48.pdf",
+      "amendedBy": [],
+      "instruments": [
+        "Decizia (PESC) 2024/385"
+      ],
+      "theme": "modificarea unor decizii de punere in aplicare a masurilor restrictive internationale ale uniunii europene",
+      "subjectCount": 0
+    },
+    {
+      "id": "49",
+      "number": 49,
+      "date": "2026-06-19",
+      "title": "punerea în aplicare a măsurilor restrictive internaționale\n ale Uniunii Europene pentru combaterea terorismului",
+      "regime": "ONU",
+      "kind": "implementation",
+      "status": "in_force",
+      "measures": [
+        "asset_freeze",
+        "travel_ban"
+      ],
+      "file": "data/Decizia CIS nr. 49.pdf",
+      "amendedBy": [],
+      "instruments": [
+        "Decizia (PESC)\n2026/455",
+        "Decizia (PESC) 2026/455"
+      ],
+      "theme": "pentru combaterea terorismului",
+      "subjectCount": 36
+    },
+    {
+      "id": "50",
+      "number": 50,
+      "date": "2026-06-19",
+      "title": "punerea în aplicare a măsurilor restrictive internaționale ale Uniunii Europene\n având în vedere situația din Bosnia și Herțegovina",
+      "regime": "UE",
+      "kind": "implementation",
+      "status": "in_force",
+      "measures": [
+        "asset_freeze",
+        "travel_ban"
+      ],
+      "file": "data/Decizia CIS nr. 50.pdf",
+      "amendedBy": [],
+      "instruments": [
+        "Decizia 2011/173/PESC"
+      ],
+      "theme": "avand in vedere situatia din bosnia si hertegovina",
+      "subjectCount": 0,
+      "notice": "Anexa din fișier nu redă numele subiecților."
+    },
+    {
+      "id": "51",
+      "number": 51,
+      "date": "2026-06-19",
+      "title": "punerea în aplicare a măsurilor restrictive internaționale\n ale Uniunii Europene îndreptate împotriva anumitor persoane și entități\n având în vedere situația din Iran",
+      "regime": "UE",
+      "kind": "implementation",
+      "status": "in_force",
+      "measures": [
+        "asset_freeze",
+        "travel_ban"
+      ],
+      "file": "data/Decizia CIS nr. 51.pdf",
+      "amendedBy": [
+        "52"
+      ],
+      "instruments": [
+        "Decizia 2011/235/PESC"
+      ],
+      "theme": "indreptate impotriva anumitor persoane si entitati avand in vedere situatia din iran",
+      "subjectCount": 336
+    },
+    {
+      "id": "52",
+      "number": 52,
+      "date": "2026-09-02",
+      "title": "modificarea unor decizii de punere în aplicare\n a măsurilor restrictive internaționale ale Uniunii Europene",
+      "regime": "UE",
+      "kind": "amendment",
+      "status": "in_force",
+      "measures": [],
+      "file": "data/Decizie CIS nr. 52 din 02.09.2026_ro.pdf",
+      "amendedBy": [],
+      "instruments": [],
+      "theme": "modificarea unor decizii de punere in aplicare a masurilor restrictive internationale ale uniunii europene",
+      "subjectCount": 0
+    },
+    {
+      "id": "53",
+      "number": 53,
+      "date": "2026-09-02",
+      "title": "punerea în aplicare a măsurilor restrictive internaționale\n ale Uniunii Europene având în vedere situația din Venezuela",
+      "regime": "UE",
+      "kind": "implementation",
+      "status": "in_force",
+      "measures": [
+        "asset_freeze",
+        "travel_ban"
+      ],
+      "file": "data/Decizia CIS nr. 53 din 02.09.2026_ro.pdf",
+      "amendedBy": [],
+      "instruments": [
+        "Decizia (PESC) 2017/2074"
+      ],
+      "theme": "avand in vedere situatia din venezuela",
+      "subjectCount": 84
+    },
+    {
+      "id": "54",
+      "number": 54,
+      "date": "2026-09-02",
+      "title": "punerea în aplicare a măsurilor restrictive internaționale\n ale Uniunii Europene având în vedere situația din Myanmar/Birmania",
+      "regime": "UE",
+      "kind": "implementation",
+      "status": "in_force",
+      "measures": [
+        "asset_freeze",
+        "travel_ban"
+      ],
+      "file": "data/Decizia CIS nr. 54 din 02.09.2026_ro.pdf",
+      "amendedBy": [],
+      "instruments": [
+        "Decizia 2013/184/PESC"
+      ],
+      "theme": "avand in vedere situatia din myanmar birmania",
+      "subjectCount": 146
+    },
+    {
+      "id": "55",
+      "number": 55,
+      "date": "2026-09-02",
+      "title": "punerea în aplicare a măsurilor restrictive internaționale\n ale Uniunii Europene având în vedere situația din Rusia",
+      "regime": "UE",
+      "kind": "implementation",
+      "status": "in_force",
+      "measures": [
+        "asset_freeze",
+        "travel_ban"
+      ],
+      "file": "data/Decizia CIS nr. 55 din 02.09.2026_ro.pdf",
+      "amendedBy": [],
+      "instruments": [
+        "Decizia (PESC) 2024/1484"
+      ],
+      "theme": "avand in vedere situatia din rusia",
+      "subjectCount": 122
+    },
+    {
+      "id": "202",
+      "number": 202,
+      "date": null,
+      "title": "RAPORT CIS 2025_FINAL",
+      "regime": "UE",
+      "kind": "report",
+      "status": "in_force",
+      "measures": [
+        "asset_freeze"
+      ],
+      "file": "data/RAPORT CIS 2025_FINAL.pdf",
+      "amendedBy": [],
+      "instruments": [],
+      "theme": "raport cis 2025 final",
+      "subjectCount": 0
+    }
+  ]
+}

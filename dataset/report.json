@@ -1,0 +1,701 @@
+{
+  "generatedAt": "2026-09-22T11:52:12Z",
+  "subjects": 4505,
+  "decisions": [
+    {
+      "id": "23",
+      "file": "data/Decizia CIS 23 din 26.05.2025.pdf",
+      "kind": "alignment",
+      "status": "in_force",
+      "method": "skipped",
+      "subjects": 0,
+      "edges": [],
+      "warnings": []
+    },
+    {
+      "id": "24",
+      "file": "data/Decizia CIS 24 din 26.05.2025.pdf",
+      "kind": "implementation",
+      "status": "in_force",
+      "method": "narrative",
+      "subjects": 4,
+      "edges": [],
+      "warnings": [
+        "coloane_nesigure_pagina_7",
+        "tabel_fara_randuri"
+      ]
+    },
+    {
+      "id": "25",
+      "file": "data/Decizia CIS 25 din 26.05.2025.pdf",
+      "kind": "amendment",
+      "status": "in_force",
+      "method": "skipped",
+      "subjects": 0,
+      "edges": [],
+      "warnings": []
+    },
+    {
+      "id": "11",
+      "file": "data/Decizia CIS nr. 11.pdf",
+      "kind": "implementation",
+      "status": "in_force",
+      "method": "table",
+      "subjects": 19,
+      "edges": [
+        90.0,
+        197.8,
+        388.7,
+        714.0
+      ],
+      "warnings": []
+    },
+    {
+      "id": "12",
+      "file": "data/Decizia CIS nr. 12.pdf",
+      "kind": "implementation",
+      "status": "in_force",
+      "method": "table",
+      "subjects": 37,
+      "edges": [
+        120.6,
+        305.2,
+        432.7,
+        709.6
+      ],
+      "warnings": []
+    },
+    {
+      "id": "13",
+      "file": "data/Decizia CIS nr. 13_0.pdf",
+      "kind": "implementation",
+      "status": "in_force",
+      "method": "table_empty",
+      "subjects": 0,
+      "edges": [],
+      "warnings": [
+        "anexa_goala"
+      ]
+    },
+    {
+      "id": "14",
+      "file": "data/Decizia CIS nr. 14.pdf",
+      "kind": "implementation",
+      "status": "in_force",
+      "method": "table",
+      "subjects": 5,
+      "edges": [
+        89.5,
+        210.1,
+        401.5,
+        650.5
+      ],
+      "warnings": []
+    },
+    {
+      "id": "15",
+      "file": "data/Decizia CIS nr. 15_1.pdf",
+      "kind": "implementation",
+      "status": "in_force",
+      "method": "table_empty",
+      "subjects": 0,
+      "edges": [],
+      "warnings": [
+        "anexa_goala"
+      ]
+    },
+    {
+      "id": "16",
+      "file": "data/Decizia CIS nr. 16.pdf",
+      "kind": "implementation",
+      "status": "in_force",
+      "method": "narrative",
+      "subjects": 38,
+      "edges": [],
+      "warnings": [
+        "coloane_nesigure_pagina_7",
+        "tabel_fara_randuri"
+      ]
+    },
+    {
+      "id": "17",
+      "file": "data/Decizia CIS nr. 17.pdf",
+      "kind": "implementation",
+      "status": "in_force",
+      "method": "table",
+      "subjects": 106,
+      "edges": [
+        76.2,
+        334.7,
+        503.2,
+        757.0
+      ],
+      "warnings": []
+    },
+    {
+      "id": "19",
+      "file": "data/Decizia CIS nr. 19.pdf",
+      "kind": "implementation",
+      "status": "in_force",
+      "method": "table",
+      "subjects": 3206,
+      "edges": [
+        78.4,
+        227.2,
+        361.8,
+        713.9
+      ],
+      "warnings": [
+        "nume_respins_607",
+        "nume_respins_957",
+        "nume_respins_960",
+        "nume_respins_1044",
+        "nume_respins_1057",
+        "nume_respins_1104",
+        "nume_respins_1111",
+        "nume_respins_1705",
+        "nume_respins_1855"
+      ]
+    },
+    {
+      "id": "2",
+      "file": "data/Decizia CIS nr. 2 consolid_DCIS48.pdf",
+      "kind": "implementation",
+      "status": "in_force",
+      "method": "table",
+      "subjects": 27,
+      "edges": [
+        93.5,
+        205.2,
+        334.6,
+        693.2
+      ],
+      "warnings": []
+    },
+    {
+      "id": "20",
+      "file": "data/Decizia CIS nr. 20.pdf",
+      "kind": "implementation",
+      "status": "in_force",
+      "method": "table",
+      "subjects": 8,
+      "edges": [
+        50.2,
+        177.7,
+        347.8,
+        727.6
+      ],
+      "warnings": []
+    },
+    {
+      "id": "21",
+      "file": "data/Decizia CIS nr. 21.pdf",
+      "kind": "implementation",
+      "status": "in_force",
+      "method": "table",
+      "subjects": 62,
+      "edges": [
+        76.9,
+        190.3,
+        400.4
+      ],
+      "warnings": []
+    },
+    {
+      "id": "22",
+      "file": "data/Decizia CIS nr. 22.pdf",
+      "kind": "implementation",
+      "status": "in_force",
+      "method": "table",
+      "subjects": 51,
+      "edges": [
+        64.2,
+        194.2,
+        558.4,
+        668.4
+      ],
+      "warnings": []
+    },
+    {
+      "id": "26",
+      "file": "data/Decizia CIS nr. 26.pdf",
+      "kind": "implementation",
+      "status": "in_force",
+      "method": "table",
+      "subjects": 6,
+      "edges": [
+        59.0,
+        94.4,
+        265.1,
+        483.8
+      ],
+      "warnings": []
+    },
+    {
+      "id": "29",
+      "file": "data/Decizia CIS nr. 29 din 25.07.2025.pdf",
+      "kind": "amendment",
+      "status": "in_force",
+      "method": "skipped",
+      "subjects": 0,
+      "edges": [],
+      "warnings": []
+    },
+    {
+      "id": "3",
+      "file": "data/Decizia CIS nr. 3 abrogată RO.pdf",
+      "kind": "implementation",
+      "status": "repealed",
+      "method": "skipped",
+      "subjects": 0,
+      "edges": [],
+      "warnings": []
+    },
+    {
+      "id": "30",
+      "file": "data/Decizia CIS nr. 30 din 29.08.2025.pdf",
+      "kind": "amendment",
+      "status": "in_force",
+      "method": "skipped",
+      "subjects": 0,
+      "edges": [],
+      "warnings": []
+    },
+    {
+      "id": "31",
+      "file": "data/Decizia CIS nr. 31 din 05.09.2025.pdf",
+      "kind": "alignment",
+      "status": "in_force",
+      "method": "skipped",
+      "subjects": 0,
+      "edges": [],
+      "warnings": []
+    },
+    {
+      "id": "32",
+      "file": "data/Decizia CIS nr. 32 din 05.09.2025.pdf",
+      "kind": "implementation",
+      "status": "in_force",
+      "method": "narrative",
+      "subjects": 18,
+      "edges": [],
+      "warnings": []
+    },
+    {
+      "id": "33",
+      "file": "data/Decizia CIS nr. 33 din 10.12.2025_0.pdf",
+      "kind": "amendment",
+      "status": "in_force",
+      "method": "skipped",
+      "subjects": 0,
+      "edges": [],
+      "warnings": []
+    },
+    {
+      "id": "34",
+      "file": "data/Decizia CIS nr. 34.pdf",
+      "kind": "implementation",
+      "status": "in_force",
+      "method": "table",
+      "subjects": 10,
+      "edges": [
+        69.1,
+        241.0,
+        476.2,
+        717.6
+      ],
+      "warnings": []
+    },
+    {
+      "id": "35",
+      "file": "data/Decizia CIS nr. 35 din 10.12.2025.pdf",
+      "kind": "alignment",
+      "status": "in_force",
+      "method": "skipped",
+      "subjects": 0,
+      "edges": [],
+      "warnings": []
+    },
+    {
+      "id": "36",
+      "file": "data/Decizia CIS nr. 36 din 10.12.2025.pdf",
+      "kind": "implementation",
+      "status": "in_force",
+      "method": "narrative",
+      "subjects": 7,
+      "edges": [],
+      "warnings": [
+        "coloane_nesigure_pagina_8",
+        "coloane_nesigure_pagina_9",
+        "coloane_nesigure_pagina_10",
+        "tabel_fara_randuri"
+      ]
+    },
+    {
+      "id": "37",
+      "file": "data/Decizia CIS nr. 37 din 10.12.2025.pdf",
+      "kind": "alignment",
+      "status": "in_force",
+      "method": "skipped",
+      "subjects": 0,
+      "edges": [],
+      "warnings": []
+    },
+    {
+      "id": "38",
+      "file": "data/Decizia CIS nr. 38 din 06.01.2026.pdf",
+      "kind": "implementation",
+      "status": "in_force",
+      "method": "narrative",
+      "subjects": 36,
+      "edges": [],
+      "warnings": []
+    },
+    {
+      "id": "39",
+      "file": "data/Decizia CIS nr. 39 din 06.01.2026.pdf",
+      "kind": "amendment",
+      "status": "in_force",
+      "method": "skipped",
+      "subjects": 0,
+      "edges": [],
+      "warnings": []
+    },
+    {
+      "id": "4",
+      "file": "data/Decizia CIS nr. 4.pdf",
+      "kind": "implementation",
+      "status": "in_force",
+      "method": "table",
+      "subjects": 21,
+      "edges": [
+        82.1,
+        181.2,
+        386.5,
+        699.2
+      ],
+      "warnings": []
+    },
+    {
+      "id": "40",
+      "file": "data/Decizia CIS nr. 40.pdf",
+      "kind": "implementation",
+      "status": "in_force",
+      "method": "table_empty",
+      "subjects": 0,
+      "edges": [],
+      "warnings": [
+        "anexa_goala"
+      ]
+    },
+    {
+      "id": "41",
+      "file": "data/Decizia CIS nr. 41.pdf",
+      "kind": "implementation",
+      "status": "in_force",
+      "method": "narrative",
+      "subjects": 9,
+      "edges": [],
+      "warnings": []
+    },
+    {
+      "id": "42",
+      "file": "data/Decizia CIS nr. 42.pdf",
+      "kind": "implementation",
+      "status": "in_force",
+      "method": "narrative",
+      "subjects": 16,
+      "edges": [],
+      "warnings": []
+    },
+    {
+      "id": "43",
+      "file": "data/Decizia CIS nr. 43.pdf",
+      "kind": "implementation",
+      "status": "in_force",
+      "method": "table",
+      "subjects": 33,
+      "edges": [
+        62.2,
+        165.4,
+        288.0,
+        472.7
+      ],
+      "warnings": [
+        "coloane_nesigure_pagina_17",
+        "coloane_nesigure_pagina_44"
+      ]
+    },
+    {
+      "id": "44",
+      "file": "data/Decizia CIS nr. 44 din 20.03.2026.pdf",
+      "kind": "amendment",
+      "status": "in_force",
+      "method": "skipped",
+      "subjects": 0,
+      "edges": [],
+      "warnings": []
+    },
+    {
+      "id": "45",
+      "file": "data/Decizia CIS nr. 45.pdf",
+      "kind": "implementation",
+      "status": "in_force",
+      "method": "narrative",
+      "subjects": 15,
+      "edges": [],
+      "warnings": [
+        "nume_respins_1",
+        "nume_respins_9",
+        "nume_respins_16"
+      ]
+    },
+    {
+      "id": "46",
+      "file": "data/Decizia CIS nr. 46.pdf",
+      "kind": "implementation",
+      "status": "in_force",
+      "method": "table_empty",
+      "subjects": 0,
+      "edges": [],
+      "warnings": [
+        "fara_lista"
+      ]
+    },
+    {
+      "id": "47",
+      "file": "data/Decizia CIS nr. 47 din 24.04.2026.pdf",
+      "kind": "amendment",
+      "status": "in_force",
+      "method": "skipped",
+      "subjects": 0,
+      "edges": [],
+      "warnings": []
+    },
+    {
+      "id": "48",
+      "file": "data/Decizia CIS nr. 48.pdf",
+      "kind": "amendment",
+      "status": "in_force",
+      "method": "skipped",
+      "subjects": 0,
+      "edges": [],
+      "warnings": []
+    },
+    {
+      "id": "49",
+      "file": "data/Decizia CIS nr. 49.pdf",
+      "kind": "implementation",
+      "status": "in_force",
+      "method": "narrative",
+      "subjects": 36,
+      "edges": [],
+      "warnings": []
+    },
+    {
+      "id": "5",
+      "file": "data/Decizia CIS nr. 5.pdf",
+      "kind": "implementation",
+      "status": "in_force",
+      "method": "narrative",
+      "subjects": 9,
+      "edges": [],
+      "warnings": []
+    },
+    {
+      "id": "50",
+      "file": "data/Decizia CIS nr. 50.pdf",
+      "kind": "implementation",
+      "status": "in_force",
+      "method": "table_empty",
+      "subjects": 0,
+      "edges": [],
+      "warnings": [
+        "anexa_goala"
+      ]
+    },
+    {
+      "id": "51",
+      "file": "data/Decizia CIS nr. 51.pdf",
+      "kind": "implementation",
+      "status": "in_force",
+      "method": "table",
+      "subjects": 336,
+      "edges": [
+        36.4,
+        170.6,
+        347.9,
+        690.7
+      ],
+      "warnings": []
+    },
+    {
+      "id": "53",
+      "file": "data/Decizia CIS nr. 53 din 02.09.2026_ro.pdf",
+      "kind": "implementation",
+      "status": "in_force",
+      "method": "table",
+      "subjects": 84,
+      "edges": [
+        36.4,
+        173.9,
+        350.0,
+        692.3
+      ],
+      "warnings": []
+    },
+    {
+      "id": "54",
+      "file": "data/Decizia CIS nr. 54 din 02.09.2026_ro.pdf",
+      "kind": "implementation",
+      "status": "in_force",
+      "method": "narrative",
+      "subjects": 146,
+      "edges": [],
+      "warnings": [
+        "coloane_nesigure_pagina_21",
+        "coloane_nesigure_pagina_103",
+        "tabel_fara_randuri"
+      ]
+    },
+    {
+      "id": "55",
+      "file": "data/Decizia CIS nr. 55 din 02.09.2026_ro.pdf",
+      "kind": "implementation",
+      "status": "in_force",
+      "method": "table",
+      "subjects": 122,
+      "edges": [
+        61.3,
+        183.5,
+        460.6,
+        700.8
+      ],
+      "warnings": []
+    },
+    {
+      "id": "6",
+      "file": "data/Decizia CIS nr. 6.pdf",
+      "kind": "implementation",
+      "status": "in_force",
+      "method": "table_empty",
+      "subjects": 0,
+      "edges": [
+        56.7,
+        141.6,
+        309.4,
+        662.2
+      ],
+      "warnings": [
+        "tabel_fara_randuri",
+        "narativ_fara_intrari",
+        "fara_subiecti"
+      ]
+    },
+    {
+      "id": "7",
+      "file": "data/Decizia CIS nr. 7.pdf",
+      "kind": "implementation",
+      "status": "in_force",
+      "method": "table",
+      "subjects": 33,
+      "edges": [
+        81.6,
+        196.1,
+        385.8,
+        687.5
+      ],
+      "warnings": []
+    },
+    {
+      "id": "28",
+      "file": "data/Decizia Consiliului interinstituțional de supervizare nr. 28 din 25.07.2025.pdf",
+      "kind": "amendment",
+      "status": "in_force",
+      "method": "skipped",
+      "subjects": 0,
+      "edges": [],
+      "warnings": []
+    },
+    {
+      "id": "52",
+      "file": "data/Decizie CIS nr. 52 din 02.09.2026_ro.pdf",
+      "kind": "amendment",
+      "status": "in_force",
+      "method": "skipped",
+      "subjects": 0,
+      "edges": [],
+      "warnings": []
+    },
+    {
+      "id": "202",
+      "file": "data/RAPORT CIS 2025_FINAL.pdf",
+      "kind": "report",
+      "status": "in_force",
+      "method": "skipped",
+      "subjects": 0,
+      "edges": [],
+      "warnings": []
+    },
+    {
+      "id": "18",
+      "file": "data/deciza_cis_nr.18_din_05.03.2025.pdf",
+      "kind": "amendment",
+      "status": "in_force",
+      "method": "skipped",
+      "subjects": 0,
+      "edges": [],
+      "warnings": []
+    },
+    {
+      "id": "10",
+      "file": "data/decizia_cis_nr.10.pdf",
+      "kind": "amendment",
+      "status": "in_force",
+      "method": "skipped",
+      "subjects": 0,
+      "edges": [],
+      "warnings": [
+        "ocr"
+      ]
+    },
+    {
+      "id": "8",
+      "file": "data/decizia_cis_nr.8.pdf",
+      "kind": "implementation",
+      "status": "in_force",
+      "method": "skipped",
+      "subjects": 0,
+      "edges": [],
+      "warnings": [
+        "ocr",
+        "fara_lista"
+      ]
+    },
+    {
+      "id": "9",
+      "file": "data/decizia_cis_nr.9.pdf",
+      "kind": "implementation",
+      "status": "in_force",
+      "method": "ocr_narrative",
+      "subjects": 5,
+      "edges": [],
+      "warnings": [
+        "ocr"
+      ]
+    },
+    {
+      "id": "1",
+      "file": "data/decizia_nr.1_cis.pdf",
+      "kind": "implementation",
+      "status": "in_force",
+      "method": "skipped",
+      "subjects": 0,
+      "edges": [],
+      "warnings": [
+        "ocr",
+        "fara_lista"
+      ]
+    }
+  ]
+}
